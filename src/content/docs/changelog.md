@@ -4,7 +4,17 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.3
+
+**August 9, 2026**
+
+- Added the ability to change variables to random values, either from a list or a number range.
+- Added comparing against a random value in conditionals.
+- Rename variable type labels to True/false, Number, and Text.
+
 ## 1.0.2
+
+**August 9, 2026**
 
 - Added Play Video action looping.
 - Added new Change video and Change image actions.
