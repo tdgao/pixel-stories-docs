@@ -4,6 +4,14 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.2
+
+- Added Play Video action looping.
+- Added new Change video and Change image actions.
+- Added fade out option for Remove UI.
+- Added "undefined" warning in action row preview when a required field is not set.
+- Added keeping the action you're viewing selected when going back in breadcrumbs.
+
 ## 1.0.1
 
 **August 7, 2026**
