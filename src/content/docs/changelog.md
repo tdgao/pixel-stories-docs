@@ -8,6 +8,13 @@ tableOfContents: false
 
 **August 9, 2026**
 
+- Fixed map overflow off window when there are a lot of maps.
+- Added a search bar for maps when there are more than 10 maps.
+
+## 1.0.3
+
+**August 9, 2026**
+
 - Added the ability to change variables to random values, either from a list or a number range.
 - Added comparing against a random value in conditionals.
 - Rename variable type labels to True/false, Number, and Text.
