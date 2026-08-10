@@ -70,9 +70,14 @@ Some commands you can use:
 
 ## Running Actions Within Dialogue
 
-It’s possible to control the world behind a dialogue box by running actions using the @run_action command. This is useful for things like a cutscene where the player and NPC move while dialogue is playing. Another example adjusting the camera position to show something relevant to dialogue. 
+It’s possible to control the world behind a dialogue box by running actions using the @run_action command. This is useful for things like a cutscene where the player and NPC move while dialogue is playing. Another example adjusting the camera position to show something relevant to dialogue.
 
-Running actions within dialogue works similarly to other commands. Type @ to select the run action command, then select the action to run, and finally configure what the action does.  
+Running actions within dialogue works similarly to other commands. Type @ to select the run action command, then select the action to run, and finally configure what the action does.
+
+```
+  @run_action show_image
+  It's an image in the middle of the screen.
+```
 
 ## Showing a Name Box
 

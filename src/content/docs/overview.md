@@ -17,9 +17,11 @@ If you are new, these are the pages worth reading first:
 
 After that, jump around as you go! The help manual is made to be wandered through, not read front to back (otherwise it's way too much information).
 
-If you're stuck and the manual doesn't help, [join the Discord](https://discord.gg/WTxUC4hEnS) to ask for help. You can ping me, @Truman, and I'll try to respond as soon as I can!
+If you're stuck and the manual doesn't help, [join the Discord](https://discord.gg/WTxUC4hEnS) to ask for help. You can ping me, **@Truman**, and I'll try to respond as soon as I can!
 
 Have fun creating with PS Maker!
+
+Also, check out "[A Quick Starter Guide to PS Maker](https://github.com/5ignusEoN/A-Quick-Starter-Guide-to-PS-Maker)" by Signus. It has resources for helping you get assets or making them.
 
 ## Help improve the manual!
 
@@ -29,4 +31,4 @@ PS Maker is has a lot of features and the help manual may not always cover every
 
 - [Discord community](https://discord.gg/WTxUC4hEnS)
 - [Report a bug](https://github.com/pixelstories-hq/ps-maker/issues/new/choose)
-- [Request a feature](/feature-request/)
+- [A Quick Starter Guide to PS Maker](https://github.com/5ignusEoN/A-Quick-Starter-Guide-to-PS-Maker).

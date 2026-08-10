@@ -150,17 +150,21 @@ export default defineConfig({
               link: "/event-system/events-actions",
             },
             {
-              label: "Triggering Events",
+              label: "Event Triggers",
               link: "/event-system/event-triggers",
             },
             {
               label: "Conditional Branching",
               link: "/event-system/conditional-branching",
             },
-            // { label: "Choices", link: "/event-system/choices" },
-            // { label: "Music and sounds", link: "/event-system/music-and-sounds" },
+            { label: "Choices", link: "/event-system/choices" },
+            {
+              label: "Music and sounds",
+              link: "/event-system/music-and-sounds",
+            },
             // { label: "NPC chase", link: "/event-system/npc-chase" },
-            // { label: "Cutscenes", link: "/event-system/cutscenes" },
+            { label: "Cutscenes", link: "/event-system/cutscenes" },
+            { label: "Battle system", link: "/event-system/battle-system" },
           ],
         },
         // {

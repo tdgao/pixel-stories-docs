@@ -1,9 +1,9 @@
 ---
-title: Triggering Events
+title: Triggering Events and Actions
 description: Add triggers that run events when the player touches or interacts with them.
 ---
 
-Event triggers are how you add player interaction to your game. They exist in the map and play an event when triggered.
+Use event triggers to run actions or play an event when the player interacts with something.
 
 ## Adding a Trigger
 
