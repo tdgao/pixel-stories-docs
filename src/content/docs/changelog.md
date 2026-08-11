@@ -4,7 +4,7 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
-## 1.0.3
+## 1.0.4
 
 **August 9, 2026**
 
