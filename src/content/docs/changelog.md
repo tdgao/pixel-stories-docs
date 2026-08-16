@@ -4,6 +4,43 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.5
+
+**August 15, 2026**
+
+Player and NPC animations
+
+- Added movement animations 1 direction option for NPC/player.
+- Added player/NPC animation sets, which defines movement and idle animations along with it's collison and depth sorting. Included support for Change player/NPC animation actions to change animation sets.
+- Added option to keep player/NPC animation changes to persist across maps.
+- Improved the layout and size the collision box and depth sorting editors better, avoid massive sprites
+- Fixed set player animation causing player to not change directions based on movement, AND fix set player animation forces player/npc direction down
+- Fixed set player/NPC movement animations not persisting in game saves.
+
+Maps and variables
+
+- Moved Variables section from Events tab into it's own Variables tab
+- Added map duplication, which duplicates map fully, including map scoped variables and events, map start/enter/leave actions, map tiles/objects/collisions, layers
+- Fixed change map cancelled on-going keyboard inputs, causing player movement to be stopped when change map.
+
+Menus and UI
+
+- Added undo toast for UI deletion.
+- Added an option to disable save game option in menu
+
+Audio
+
+- Changed music to not pause when alt-tab/blurred window, and added configuration setting for it.
+- Fixed “Set background music” action overlaps different tracks when two are played in same map
+
+Event and action editor
+
+- Added instance names to spawn NPX, show image, play video, UI, and event trigger
+- Added click to select a spawned-in NPC where applicable for actions.
+- Added an indicator arrow for move player/NPC action to show start and end positions.
+- Changed "Events" to be renamed to "Event library"
+- Fixed drag to move player desyncing the dragging area.
+
 ## 1.0.4
 
 **August 9, 2026**
