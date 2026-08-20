@@ -4,6 +4,37 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.6
+
+**August 19, 2026**
+
+UI and editor
+
+- Added alignment controls, even distribution, and snapping for multi-selected UI components, map objects, NPCs, collisions, and the player start position.
+- Added dedicated config page for components in Add UI.
+- Added breadcrumbs for components in the Add UI action.
+- Improved UI editor camera behaviour.
+- Fixed the map canvas cursor remaining in its grabbing state after releasing the middle mouse button.
+
+Player/NPCs
+
+- Fixed changing player and NPC animations to correctly apply or reset collision and depth sorting settings.
+- Fixed player speed not persisting in game saves or playtests.
+
+Maps and events
+
+- Fixed changing maps not treating the player as having exited touch triggers on the previous map.
+- Fixed the lifecycle order for fade in/out and player position/direction in the Change Map action.
+- Fixed the Change Map action to show X indicator when setting the player position for the first time.
+- Fixed leading inline commands not populating the initial dialogue page state.
+- Fixed the `@run_action` command adding an extra closing brace.
+
+Misc
+
+- Added transition options for setting and stopping background music.
+- Added a starting map selector for playtests.
+- Fixed save game action blocked dialogue UI rendering in that save when a dialogue action runs right after save game action.
+
 ## 1.0.5
 
 **August 15, 2026**
