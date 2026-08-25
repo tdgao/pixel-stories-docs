@@ -4,6 +4,31 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.7
+
+**August 24, 2026**
+
+Events and actions
+
+- Added options to make players and NPCs face toward the player or an NPC in the Set Direction actions.
+- Added move position by offset to the Move Player and Move NPC actions.
+- Added an Open Link in Browser action.
+- Added options to control whether Change Map fades in before map start, after map start, or after map enter.
+- Added fullscreen mode in game options menu.
+- Improved the Change Map action to show the player preview while setting the player position.
+- Improved the Choices action row preview to display the choice text.
+- Fixed the Change Map action continuing to run actions from the previous event after changing maps.
+
+Editor and UI
+
+- Added undo and redo support to the Add UI editor.
+- Fixed tool keyboard shortcuts being blocked while a tool menu was open.
+- Fixed the options menu erroring when a dialogue sound was configured to stop the previous sound.
+
+Game exports
+
+- Added custom favicon and Windows executable icon options for exported games.
+
 ## 1.0.6
 
 **August 19, 2026**
