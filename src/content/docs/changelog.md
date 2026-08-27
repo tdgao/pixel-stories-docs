@@ -4,6 +4,12 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.8
+
+**August 27, 2026**
+
+- Fixed an issue where exported games could fail to start due to a variable data cloning error.
+
 ## 1.0.7
 
 **August 24, 2026**
