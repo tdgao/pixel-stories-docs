@@ -4,6 +4,15 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.9
+
+**September 5, 2026**
+
+- Added toggle NPC movement action
+- Updated "Add event trigger" action config to be more organized.
+- Fixed how the remove NPC action did not also remove any event triggers attached on NPC.
+- Fixed how fullscreen blocked in windows exe export
+
 ## 1.0.8
 
 **August 27, 2026**
