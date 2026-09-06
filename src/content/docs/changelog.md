@@ -4,6 +4,15 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.0.10
+
+**September 6, 2026**
+
+- Fixed a bug where player position did not appear in Change map action
+- Fixed a bug where collisions appeared hidden when switching maps in Change map action
+- Fixed map objects snapping at half pixels and added option to hold alt/option to snap at 1px.
+- Fixed map editor camera position and zoom leaked across maps.
+
 ## 1.0.9
 
 **September 5, 2026**
