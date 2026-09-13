@@ -26,7 +26,7 @@ const STEAM_STORE_URL = "https://store.steampowered.com/app/4823590/PS_Maker/";
 
   <!-- Desktop: Inline links -->
   <div class="hidden md:flex gap-2 w-max font-medium h-full">
-    <a href="/blog" class="action sl-flex">News</a>
+    <a href="/blog" class="action sl-flex">News & Updates</a>
     <a href="/overview/" class="action sl-flex">PS Maker Manual</a>
     <a
       href="https://discord.gg/WTxUC4hEnS"
@@ -79,7 +79,7 @@ const STEAM_STORE_URL = "https://store.steampowered.com/app/4823590/PS_Maker/";
   aria-modal="true"
 >
   <div class="flex flex-col gap-1.5 font-medium">
-    <a href="/blog" class="mobile-link">News</a>
+    <a href="/blog" class="mobile-link">News & Updates</a>
 
     <a href="/overview/" class="mobile-link">PS Maker Manual</a>
     <a
@@ -281,8 +281,7 @@ const STEAM_STORE_URL = "https://store.steampowered.com/app/4823590/PS_Maker/";
     "astro:before-swap",
     (event: Event & { newDocument: Document }) => {
       const resolvedTheme = document.documentElement.dataset.theme as
-        | Theme
-        | undefined;
+        Theme | undefined;
 
       if (!resolvedTheme) return;
 
