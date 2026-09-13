@@ -7,7 +7,6 @@ const showHamburger = currentPath === "/" || currentPath === "/community";
 const showSteamButton = currentPath === "/";
 const themeToggleLabel = Astro.locals.t("themeSelect.accessibleLabel");
 const STEAM_STORE_URL = "https://store.steampowered.com/app/4823590/PS_Maker/";
-const PRESS_KIT_URL = "https://impress.games/press-kit/pixel-stories/ps-maker";
 ---
 
 <nav class="flex items-center gap-3">
@@ -29,14 +28,6 @@ const PRESS_KIT_URL = "https://impress.games/press-kit/pixel-stories/ps-maker";
   <div class="hidden md:flex gap-2 w-max font-medium h-full">
     <a href="/blog" class="action sl-flex">News</a>
     <a href="/overview/" class="action sl-flex">PS Maker Manual</a>
-    <a
-      href={PRESS_KIT_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="action sl-flex"
-    >
-      Press kit <Icon name="external" size="1rem" />
-    </a>
     <a
       href="https://discord.gg/WTxUC4hEnS"
       target="_blank"
@@ -91,13 +82,6 @@ const PRESS_KIT_URL = "https://impress.games/press-kit/pixel-stories/ps-maker";
     <a href="/blog" class="mobile-link">News</a>
 
     <a href="/overview/" class="mobile-link">PS Maker Manual</a>
-    <a
-      href={PRESS_KIT_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="mobile-link"
-      >Press kit <Icon name="external" size="0.9rem" class="opacity-65" /></a
-    >
     <a
       href="https://discord.gg/WTxUC4hEnS"
       target="_blank"

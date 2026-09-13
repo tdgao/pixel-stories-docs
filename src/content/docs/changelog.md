@@ -4,6 +4,17 @@ description: Find specific releases and changelogs for the game maker.
 tableOfContents: false
 ---
 
+## 1.1.0
+
+**September 13, 2026**
+
+- Added options to disable NPC collisions with the player in NPC settings and Move NPC actions.
+- Added custom mouse cursors.
+- Added custom keybinds and event triggers for keyboard and mouse input.
+- Added a player depth sorting option.
+- Added a way to toggle specific player movement directions.
+- Removed the File menu from the top left on Linux.
+
 ## 1.0.10
 
 **September 6, 2026**
